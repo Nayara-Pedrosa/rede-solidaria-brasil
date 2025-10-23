@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos Sociais — Rede Solidária Brasil</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html"><img src="images/logo.webp" alt="Logo Rede Solidária Brasil" class="logo"></a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos Sociais</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article aria-labelledby="titulo-projetos">
+      <h1 id="titulo-projetos">Nossos Projetos Sociais</h1>
+      <p>Conheça algumas das ações da Rede Solidária Brasil que estão transformando vidas.</p>
+
+      <section class="projeto">
+        <h2>Projeto Educação para Todos</h2>
+        <img src="images/voluntario.webp" alt="Aulas de reforço" class="thumb">
+        <p>Oferece reforço escolar e oficinas para jovens em vulnerabilidade social.</p>
+      </section>
+
+      <section class="projeto">
+        <h2>Projeto Alimentando Esperanças</h2>
+        <img src="images/thumb-projeto.webp" alt="Distribuição de alimentos" class="thumb">
+        <p>Distribui cestas básicas e refeições em comunidades carentes de todo o Brasil.</p>
+      </section>
+
+      <section class="doar">
+        <h2>Como Contribuir</h2>
+        <p>Você pode ajudar sendo voluntário ou realizando doações financeiras.</p>
+        <ul>
+          <li>PIX: doacoes@redesolidariabrasil.org.br</li>
+          <li>Banco: 123 — Agência: 0001 — Conta: 12345-6</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="ano2"></span> Rede Solidária Brasil</p>
+    <script>document.getElementById('ano2').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

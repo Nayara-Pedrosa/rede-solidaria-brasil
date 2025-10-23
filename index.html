@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rede Solidária Brasil — Início</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Rede Solidária Brasil: projetos sociais, voluntariado e contato.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="images/logo.webp" alt="Logo Rede Solidária Brasil" class="logo">
+      <nav aria-label="Navegação principal">
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos Sociais</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="titulo-hero">
+      <h1 id="titulo-hero">Rede Solidária Brasil</h1>
+      <p>Trabalhando por uma comunidade mais justa — participe, doe, seja voluntário.</p>
+      <img src="images/banner.jpg" alt="Voluntários em ação" class="hero-img">
+    </section>
+
+    <section class="sobre" aria-labelledby="sobre-titulo">
+      <h2 id="sobre-titulo">Sobre a Rede</h2>
+      <p>A <strong>Rede Solidária Brasil</strong> é uma organização sem fins lucrativos que atua em todo o país promovendo inclusão social, capacitação e ajuda humanitária.</p>
+    </section>
+
+    <section class="contato" aria-labelledby="contato-titulo">
+      <h2 id="contato-titulo">Contato</h2>
+      <address>
+        <p>Endereço: Rua Esperança, 123 — São Paulo, SP</p>
+        <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+        <p>E-mail: <a href="mailto:contato@redesolidariabrasil.org.br">contato@redesolidariabrasil.org.br</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="ano"></span> Rede Solidária Brasil — Todos os direitos reservados.</p>
+    <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
